@@ -4,3 +4,10 @@
     <%= post.title %>
   </p>
 </div>
+<div>
+  <% if post.images.attached? %>
+    <% post.images.each do |image| %>
+    <%= image_tag image %>
+    <% end %>
+  <% end %>
+</div>
