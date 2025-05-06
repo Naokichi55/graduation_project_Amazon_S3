@@ -62,3 +62,6 @@ gem "tailwindcss-ruby", "3.4.17"
 
 #devise の導入
 gem "devise"
+
+# 画像加工のためのimage_processingを導入
+gem "image_processing", ">= 1.2"
