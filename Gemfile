@@ -65,3 +65,6 @@ gem "devise"
 
 # 画像加工のためのimage_processingを導入
 gem "image_processing", ">= 1.2"
+
+# aws-sdk-s3を使用するため追加
+gem "aws-sdk-s3", require: false
