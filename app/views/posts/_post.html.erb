@@ -7,7 +7,7 @@
 <div>
   <% if post.images.attached? %>
     <% post.images.each do |image| %>
-    <%= image_tag image %>
+    <%= image_tag image.variant(resize_to_fit: [300,200]) %>
     <% end %>
   <% end %>
 </div>

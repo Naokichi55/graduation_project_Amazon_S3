@@ -68,3 +68,6 @@ gem "image_processing", ">= 1.2"
 
 # aws-sdk-s3を使用するため追加
 gem "aws-sdk-s3", require: false
+
+# Active Storageバリデーション用のgemを追加
+gem "active_storage_validations"
